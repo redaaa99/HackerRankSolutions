@@ -40,7 +40,8 @@ int boardCutting(vector<int> cost_y, vector<int> cost_x) {
 		}
 	}
 	cost = cost%1000000007;
-	return cost%((long)(10e9+7));
+	//cout << cost << endl;
+	return cost;
 }
 
 int main()
